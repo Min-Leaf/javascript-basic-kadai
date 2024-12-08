@@ -1,6 +1,10 @@
- // アロー関数内で計算結果がコンソールに出力する
+// アロー関数内で計算する
  const numGaul = (num) => {
-  console.log(num * num);
+  return num * num;
 }
- // 引数
- numGaul(10);
+
+// 引数
+const print = numGaul(10);
+
+// 結果をコンソールに表示する
+console.log(print);
